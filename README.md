@@ -1,3 +1,4 @@
+# E-Commerce 
 This project is a simple web application I built while practicing Java web development. It’s a small product system where users can register, log in, browse products, and write reviews, while admins can manage products by adding, editing, and deleting them.
 
 I tried to apply what I learned in Servlets and JSP and understand how a full request goes from the browser to the backend and then to the database and back again. The structure is split into layers: JSP for the interface, Servlets for handling requests, a service layer for the logic, and DAO for database operations with MySQL. I also added Redis in a simple way to improve performance a bit by caching some data instead of hitting the database every time.

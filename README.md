@@ -6,6 +6,4 @@ For security, passwords are hashed instead of being stored as plain text, and th
 
 On the user side, anyone can create an account, log in, see products, and add reviews. On the admin side, there is control over products like adding new ones, updating existing ones, or deleting them. Everything is connected in a simple flow where the request goes from JSP to Servlet, then Service, then DAO, then MySQL, and the response comes back to the user.
 
-I wrote a few unit tests using JUnit to make sure the important parts like password hashing and verification are working correctly, including support for older passwords that were stored in plain text before.
-
 Overall, this project helped me understand how Java web applications are actually built in real life, how layers interact with each other, and how data moves between the frontend and backend.
